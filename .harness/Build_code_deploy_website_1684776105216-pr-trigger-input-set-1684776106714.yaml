@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_code_deploy_website_1684776105216-pr-trigger-input-set
+  identifier: Build_code_deploy_website_1684776105216prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: cicdtest
+  pipeline:
+    identifier: Build_code_deploy_website_1684776105216
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
